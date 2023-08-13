@@ -31,5 +31,6 @@ aws s3api put-bucket-encryption --bucket $BUCKET_NAME --server-side-encryption-c
 aws s3api put-object --bucket $BUCKET_NAME --key "lambda/"
 aws s3api put-object --bucket $BUCKET_NAME --key "terraform/sandbox_infrastructure/"
 aws s3api put-object --bucket $BUCKET_NAME --key "terraform/application/"
+aws s3api put-object --bucket $BUCKET_NAME --key "metrics/"
 
 echo "S3 Bucket $BUCKET_NAME provisioned and prepared successfully."
