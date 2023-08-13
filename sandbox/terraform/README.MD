@@ -35,9 +35,9 @@ The infrastructure setup is controlled through variables, which are defined in t
 
 To destroy the resources created by Terraform:
 
-    ```bash
-    terraform destroy
-    ```
+```bash
+terraform destroy
+```
 
 ## Support & Contribution
 
