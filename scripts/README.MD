@@ -13,3 +13,11 @@
 1. Bucket name;
 2. Region for bucket.
 
+### Usage example:
+```sh
+./scripts/provision_s3.sh
+Enter the desired S3 bucket name: serverless-metrics-collector-130823
+Enter the AWS region (e.g., us-west-1): eu-central-1
+S3 Bucket serverless-metrics-collector-130823 provisioned and prepared successfully.
+```
+
